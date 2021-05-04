@@ -2,6 +2,7 @@
 
 body {
   font-family: "Lato", sans-serif;
+  width: 100%;
 }
 
 h2 {
@@ -31,7 +32,8 @@ section.alternate-background {
 }
 
 main img {
-  width: 300px;
+  max-width:100%;
+  max-height:100%;
 }
 
 /* ---  Groups & Items --- */
@@ -57,6 +59,7 @@ header {
   background-color: #ff385c;
   padding: 20px 20px 0 20px;
   text-align: center;
+  display: inline-block;
 }
 
 header nav {
@@ -133,7 +136,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 600px) {
+@media all and (min-width: 480px) {
   header {
     display: flex;
     justify-content: space-between;
